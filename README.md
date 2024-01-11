@@ -9,8 +9,8 @@ Diabetes Mellitus is among critical diseases and lots of people are suffering fr
 This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective is to predict based on diagnostic measurements whether a patient has diabetes.
 
 # Contant
-Pregnancies: Number of times pregnant
-Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
+- Pregnancies: Number of times pregnant
+- Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
 BloodPressure: Diastolic blood pressure (mm Hg)
 SkinThickness: Triceps skin fold thickness (mm)
 Insulin: 2-Hour serum insulin (mu U/ml)
