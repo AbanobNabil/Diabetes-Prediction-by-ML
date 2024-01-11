@@ -1,11 +1,12 @@
 import pickle
 import streamlit as st
 import pandas as pd
+import requests
 
 # Uplode Data
-
-data = pickle.load(open(r'https://github.com/AbanobNabil/Diabetes-Prediction-by-ML/blob/main/Diabetes_prediction.sav','rb'))
-
+url = 'https://github.com/AbanobNabil/Diabetes-Prediction-by-ML/raw/main/Diabetes_prediction.sav'
+response = requests.get(url)
+data = pickle.loads(response.content)
 
 st.title('Diabetes Predicting Web App')
 st.info('Simple Diabetes Predictive Application')
