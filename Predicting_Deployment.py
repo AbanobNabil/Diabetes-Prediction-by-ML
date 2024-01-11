@@ -4,7 +4,7 @@ import pandas as pd
 
 # Uplode Data
 
-data = pickle.load(open(r'C:\Users\Abanob.Nabil\Documents\Python\Diabetes_predicting\Diabetes_prediction.sav','rb'))
+data = pickle.load(open(r'https://github.com/AbanobNabil/Diabetes-Prediction-by-ML/blob/main/Diabetes_prediction.sav','rb'))
 
 
 st.title('Diabetes Predicting Web App')
